@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: yannik.tjark.candycrush.model.SpielfeldTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.06 s - in yannik.tjark.candycrush.model.SpielfeldTest
