@@ -27,12 +27,20 @@ public class SpielfeldLogic {
                 
             }
         }
+<<<<<<< Updated upstream
         spielfeld.setContentAt(2, 5, new Zahl(8));
         
+=======
+        spielfeld.setContentAt(2, 2, new Zahl (8));
+>>>>>>> Stashed changes
         
 
         return spielfeld;
     }
+<<<<<<< Updated upstream
     
 }
+=======
+>>>>>>> Stashed changes
 }
+

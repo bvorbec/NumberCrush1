@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<<<<<<< Updated upstream
 <testsuite tests="1" failures="0" name="Spielfeldtest.Spielfeldtest" time="0.027" errors="0" skipped="0">
+=======
+<testsuite tests="1" failures="0" name="Spielfeldtest.Spielfeldtest" time="0.034" errors="0" skipped="0">
+>>>>>>> Stashed changes
   <properties>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="11.0.6+10"/>
@@ -63,5 +67,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
+<<<<<<< Updated upstream
   <testcase classname="Spielfeldtest.Spielfeldtest" name="toString1" time="0.027"/>
+=======
+  <testcase classname="Spielfeldtest.Spielfeldtest" name="toString1" time="0.034"/>
+>>>>>>> Stashed changes
 </testsuite>
