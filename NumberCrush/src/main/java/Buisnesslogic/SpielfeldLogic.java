@@ -27,8 +27,15 @@ public class SpielfeldLogic {
                 
             }
         }
+        
+        
 
         return spielfeld;
     }
+    public static Spielfeld Veraenderung () {
+        
+        spielfeld.setContentAt(1, 1, new Zahl(1));
     
+    return spielfeld;
+}
 }
