@@ -15,17 +15,31 @@ public class Spielfeld {
    
     
     private Zahl[][] content;
+    private int higth;
+    private int width;
 
+    public int getHigth() {
+        return higth;
+    }
 
-    public Spielfeld (int breite, int hoehe) {
-     content = new Zahl [hoehe] [breite];
-     for (int x =0; x< breite; x++){
-          for(int y =0; y < hoehe ; y++){
+    public int getWidth() {
+        return width;
+    }
+
+    public Spielfeld(int breite, int hoehe){
+        higth=hoehe;
+        width=breite;
+        content = new Zahl[hoehe][breite]; // GrÃ¶ÃŸe des Spielfeldes.
+        //fÃ¼lle das Spielfeld mit empty Zahlen
+        for(int x = 0; x< breite; x++){
+            for(int y =0; y < hoehe ; y++){
                 setContentAt(x,y, new Zahl(0));
-          }
-     }
-     }
-      public void setContentAt(int x, int y, Zahl zahl){
+            }
+        }
+
+    }
+
+    public void setContentAt(int x, int y, Zahl zahl){
         content[y][x]= zahl;
     }
     public Zahl getContentAt(int x, int y){
@@ -35,7 +49,12 @@ public class Spielfeld {
     public Zahl[][] getContent() {
         return content;
     }
-     @Override
+
+    /**
+     * zeichnet ein Spielfeld
+     * @return gibt das Spielfeld als String zurÃ¼ck
+     */
+    @Override
     public String toString() {
 
         String result = "";
@@ -47,7 +66,5 @@ public class Spielfeld {
         }
         return result;
     }
-
- 
 }
 
